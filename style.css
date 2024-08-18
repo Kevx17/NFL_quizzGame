@@ -1,0 +1,81 @@
+
+/*Modern reset*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root, #__next {
+  isolation: isolate;
+}
+
+
+
+
+html{
+    height: 100%;
+}
+
+body{
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    background-image: url("pics/nfl.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    position: relative;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.442);
+}
+
+main{
+    display: grid;
+    align-items: center;
+  }
+
+.content{
+    display: grid;
+    place-items: center;
+    gap: 10px;
+}
+
+h1{
+    color: rgba(255, 255, 255, 0.776);
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: rgb(52, 50, 50);
+    border-radius: 8px;
+    color: aliceblue;
+    border: 1px solid black;
+}
+
+button:hover{
+    background-color: rgb(25, 24, 24);
+    color: aliceblue;
+}
